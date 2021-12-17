@@ -1,0 +1,28 @@
+Comandos Git:
+
+Alterar nome de usuário no terminal Git instalado na máquina => git config --global user.name "Jefferson Joaquim"
+Alterar e-mail de usuário no terminal Git instalado na máquina => git config --global user.email "jefferson.joaquim@hotmail.com"
+Alterar editor de comando no terminal Git instalado na máquina => git config --global core.editor vscode
+
+Consultar dados cadastrados:
+git config user.name
+git confit user.email
+Todos os dados cadastrados => git config --list
+--
+Iniciar repositório Git - através do CMD acessando a pasta onde vai ficar o repositório => git init
+Verifica todas as alterações dentro da repositório branch master => git status
+Adicionar arquivos não monitoramento 'traqueados' do git => git add exemplo: git add README.md
+Adicionar todos os arquivos não monitoramento 'traqueados' do git => git add -A
+Realizar commit => git commit -m "Nome Commit" Exemplo git commit -m "Primeiro Commit criando arquivo README"
+Realizar insere os arquivos e realiza o commit => git commit -am "Nome do arquivo" Exemplo git commit -am "Primeiro Commit criando arquivo README"
+Verificar status commit => git log
+Verificar Branch onde estamos trabalhando => git branch
+Restaurar commit tipo soft permite restauras no poto antes do commit => git --soft
+Restaurar commit tipo mixed permite restauras no poto antes do antes do add => git reset --mixed
+Restaurar commit tipo hard permite restauras no tudo ignora tudo que foi feito => git reset --hard
+Criar nova Branch => git branch Nome branch Exemplo git branch teste
+Trocar de Branch => git checkout teste
+Mostra o que foi alterado antes de dar commit => git diff
+Obter o nome dosarquivos que foram alterados => git diff --name-only
+Obter o alterações especificas no em um arquivo => git diff --nome do arquivo
+Remover alterações especificas => git checkout HEAD -- nome do arquivo
