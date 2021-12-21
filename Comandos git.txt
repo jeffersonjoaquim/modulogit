@@ -26,3 +26,6 @@ Mostra o que foi alterado antes de dar commit => git diff
 Obter o nome dosarquivos que foram alterados => git diff --name-only
 Obter o alterações especificas no em um arquivo => git diff --nome do arquivo
 Remover alterações especificas => git checkout HEAD -- nome do arquivo
+Através do Git Bash liberar acesso SSH 'Da estação de trabalho ao repositório git' => ssh-keygn -t rsa -b 4096 -C "E-mail cadastrado no acesso GITHab"
+	-Instrução: Será criada a pasta nome .ssh em diretório local do usuário a pasta contera dois arquivo abrir o arquivo public e copiar o conteudo.
+		    Acessar o GitHub e nas configurações do usuário acessar 'Settings' após acessar 'SSH and GPG keys' escolher 'new SSH key'
